@@ -1,7 +1,7 @@
 html {
     background-color: #24252a;
 }
-li, a, button {
+li, a, .button {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -38,7 +38,7 @@ header{
     color: #000000;
     cursor: pointer;
 }
-button {
+.button {
     margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(35, 38, 40, 1);
@@ -47,7 +47,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-button:hover {
+.button:hover {
     background-color: rgba(35, 38, 40, 0.8)
 }
 
@@ -60,6 +60,17 @@ div.main-content {
     display: grid;
     grid-template-columns: 540px 540px 540px;
     grid-template-rows: 350px 350px;
+
+}
+div.gallery {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    padding: 15px 8%;
+    display:inline-block;
+    align-items:center;
+    justify-content: center;
 
 }
 div.box-1 {

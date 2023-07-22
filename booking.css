@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+input {
+    border: 1px solid red;
+}
+textarea{
+    border: 1px solid red;
+}
+h2 {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+div.opt1,
+div.opt2 {
+    display: flex;
+    align-items: center;
+}
+
+div.booking-form {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .1);
+    color: white;
+    display: grid;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+div.buttons {
+    align-items: center;
+    text-align: center;
+}
+#bookingForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bookingForm label,
+#bookingForm input,
+#bookingForm textarea {
+    flex-basis: 100%;
+}
+
+#bookingForm label {
+    padding: 10px;
+    text-align: left;
+}
+
+#bookingForm input,
+#bookingForm textarea {
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+}
+
+#bookingForm textarea {
+    resize: vertical;
+}
+
+#bookingForm input[type="radio"] {
+    appearance: auto;
+}
+
+#bookingForm button {
+    margin: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="booking.css">
+    <title>Iconic Music | Home</title>
+</head>
+<body>
+    <header class="header-main">
+        <img class="logo" src="iconic500pix.png" alt="logo">
+        <div class="title">
+            <h1>ICONIC MUSIC</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="equipment.html">Equipment</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Social</a></li>
+            </ul>
+        </nav>
+        <a href="booking.html" class="button">Book Now</a>
+    </header>
+    <h2>Booking Form</h2>
+    <div class="booking-form">
+        <form action="#" method="post" id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+    
+            <label>Select Service:</label><br>
+            <div class="opt1">
+                <label for="option1">Book Studio</label><br>
+                <input type="radio" id="option1" name="option" value="option1">
+            </div>
+            <div class="opt2">
+                <label for="option2">Mix/Mastering</label><br><br>
+                <input type="radio" id="option2" name="option" value="option2">
+            </div>
+            
+    
+            <label for="specialRequest">Special Request:</label><br>
+            <textarea id="specialRequest" name="specialRequest" rows="4" cols="30"></textarea><br><br>
+            <div class="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    <footer>
+        Contact Us: <a href="mailto:iconicmusicgroup@gmail.com">iconicmusicgroup@gmail.com</a>
+    </footer>
+</body>
+</html>
